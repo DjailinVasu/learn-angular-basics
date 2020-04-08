@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
 import { BlankImageComponent } from './blank-image/blank-image.component';
 import { TryingEventsComponent } from './trying-events/trying-events.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
     AppComponent,
     PostComponent,
     BlankImageComponent,
-    TryingEventsComponent
+    TryingEventsComponent,
+    TwoWayBindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
