@@ -8,7 +8,8 @@ import { TryingEventsComponent } from './trying-events/trying-events.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
 import { FirstDirectiveComponent } from './first-directive/first-directive.component';
-import { UseConditionsComponent } from './use-conditions/use-conditions.component'
+import { UseConditionsComponent } from './use-conditions/use-conditions.component';
+import { UseCyclesComponent } from './use-cycles/use-cycles.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UseConditionsComponent } from './use-conditions/use-conditions.componen
     TryingEventsComponent,
     TwoWayBindingComponent,
     FirstDirectiveComponent,
-    UseConditionsComponent
+    UseConditionsComponent,
+    UseCyclesComponent
   ],
   imports: [
     BrowserModule,
