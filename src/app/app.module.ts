@@ -9,7 +9,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { FormsModule } from '@angular/forms';
 import { FirstDirectiveComponent } from './first-directive/first-directive.component';
 import { UseConditionsComponent } from './use-conditions/use-conditions.component';
-import { UseCyclesComponent } from './use-cycles/use-cycles.component'
+import { UseCyclesComponent } from './use-cycles/use-cycles.component';
+import { UsePipesComponent } from './use-pipes/use-pipes.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UseCyclesComponent } from './use-cycles/use-cycles.component'
     TwoWayBindingComponent,
     FirstDirectiveComponent,
     UseConditionsComponent,
-    UseCyclesComponent
+    UseCyclesComponent,
+    UsePipesComponent
   ],
   imports: [
     BrowserModule,
