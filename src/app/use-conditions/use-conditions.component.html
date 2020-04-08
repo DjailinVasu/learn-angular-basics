@@ -13,3 +13,10 @@
 <ng-template #blueP>
   <p class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsum.</p>
 </ng-template>
+
+<h4>А теперь с директивой ngSwitch</h4>
+<div [ngSwitch]="toggle">
+  <div *ngSwitchCase="true">Это показывается если toggle = true</div>
+  <div *ngSwitchCase="false">Это показывается если toggle = false</div>
+  <div *ngSwitchDefault >А это показывается, если что-то третье</div>
+</div>
