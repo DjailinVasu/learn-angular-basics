@@ -7,5 +7,11 @@
   border: '1px solid pink',
   background: backgroundToogle ? 'pink' : 'black'
 }">
-
 </div>
+
+<p [ngClass]="{
+  red: backgroundToogle,
+  blue: !backgroundToogle
+}">Попробуем директиву ngClass</p>
+
+<p [class.red]="backgroundToogle" [class.blue]="!backgroundToogle">Другой вариант переключать классы</p>
