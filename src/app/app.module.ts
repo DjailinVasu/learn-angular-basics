@@ -7,7 +7,8 @@ import { BlankImageComponent } from './blank-image/blank-image.component';
 import { TryingEventsComponent } from './trying-events/trying-events.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
-import { FirstDirectiveComponent } from './first-directive/first-directive.component'
+import { FirstDirectiveComponent } from './first-directive/first-directive.component';
+import { UseConditionsComponent } from './use-conditions/use-conditions.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FirstDirectiveComponent } from './first-directive/first-directive.compo
     BlankImageComponent,
     TryingEventsComponent,
     TwoWayBindingComponent,
-    FirstDirectiveComponent
+    FirstDirectiveComponent,
+    UseConditionsComponent
   ],
   imports: [
     BrowserModule,
