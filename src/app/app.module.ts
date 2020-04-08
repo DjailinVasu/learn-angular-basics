@@ -6,7 +6,8 @@ import { PostComponent } from './post/post.component';
 import { BlankImageComponent } from './blank-image/blank-image.component';
 import { TryingEventsComponent } from './trying-events/trying-events.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { FirstDirectiveComponent } from './first-directive/first-directive.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms'
     PostComponent,
     BlankImageComponent,
     TryingEventsComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    FirstDirectiveComponent
   ],
   imports: [
     BrowserModule,
